@@ -37,6 +37,7 @@ console.log(DefaultNodeModel)
       const node = new DefaultNodeModel({
         name: "Node 1",
         color: "rgb(0,192,255)",
+        
       });
       node.setPosition(Math.floor(Math.random() * (100 - 8000) + 8000), Math.floor(Math.random() * (100 - 8000) + 8000));
       let port1 = node.addInPort("In");
